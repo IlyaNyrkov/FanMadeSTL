@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/petProjects/CppProjects/DataStructures/dynamic_array.h
+cstddef
+-
+dynamic_array.tpp
+/home/ilya/petProjects/CppProjects/DataStructures/dynamic_array.tpp
+
+/home/ilya/petProjects/CppProjects/DataStructures/dynamic_array.tpp
+dynamic_array.h
+/home/ilya/petProjects/CppProjects/DataStructures/dynamic_array.h
+
+/home/ilya/petProjects/CppProjects/DataStructures/dynamic_array_test.cpp
+gtest/gtest.h
+/home/ilya/petProjects/CppProjects/DataStructures/gtest/gtest.h
+dynamic_array.h
+/home/ilya/petProjects/CppProjects/DataStructures/dynamic_array.h
+vector
+-
+algorithm
+-
+

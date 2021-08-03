@@ -1,0 +1,1 @@
+/usr/bin/c++ -pthread -Wall -Werror -Wpedantic -fprofile-arcs -ftest-coverage CMakeFiles/DataStructuresTest.dir/mainTest.cpp.o CMakeFiles/DataStructuresTest.dir/dynamic_array_test.cpp.o -o DataStructuresTest  /usr/lib/x86_64-linux-gnu/libgtest.a 
