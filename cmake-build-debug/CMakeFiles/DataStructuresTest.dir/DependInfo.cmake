@@ -8,13 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ilya/petProjects/CppProjects/DataStructures/dynamic_array/dynamic_array_test.cpp" "/home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructuresTest.dir/dynamic_array/dynamic_array_test.cpp.o"
-  "/home/ilya/petProjects/CppProjects/DataStructures/dynamic_array/run_dynamic_array_test.cpp" "/home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructuresTest.dir/dynamic_array/run_dynamic_array_test.cpp.o"
-  "/home/ilya/petProjects/CppProjects/DataStructures/hash_table/hash_table.cpp" "/home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructuresTest.dir/hash_table/hash_table.cpp.o"
-  "/home/ilya/petProjects/CppProjects/DataStructures/hash_table/hash_table_test.cpp" "/home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructuresTest.dir/hash_table/hash_table_test.cpp.o"
-  "/home/ilya/petProjects/CppProjects/DataStructures/hash_table/run_hash_table_test.cpp" "/home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructuresTest.dir/hash_table/run_hash_table_test.cpp.o"
-  "/home/ilya/petProjects/CppProjects/DataStructures/stack/run_stack_test.cpp" "/home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructuresTest.dir/stack/run_stack_test.cpp.o"
-  "/home/ilya/petProjects/CppProjects/DataStructures/stack/stack_test.cpp" "/home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructuresTest.dir/stack/stack_test.cpp.o"
+  "/home/ilya/petProjects/CppProjects/FanMadeSTL/dynamic_array/dynamic_array_test.cpp" "/home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug/CMakeFiles/DataStructuresTest.dir/dynamic_array/dynamic_array_test.cpp.o"
+  "/home/ilya/petProjects/CppProjects/FanMadeSTL/dynamic_array/run_dynamic_array_test.cpp" "/home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug/CMakeFiles/DataStructuresTest.dir/dynamic_array/run_dynamic_array_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

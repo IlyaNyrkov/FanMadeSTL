@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/ilya/petProjects/CppProjects/DataStructures/&{GTEST_INCLUDE_DIR}"
+CXX_INCLUDES = -I"/home/ilya/petProjects/CppProjects/FanMadeSTL/&{GTEST_INCLUDE_DIR}"
 
 CXX_FLAGS = -pthread -Wall -Werror -Wpedantic -fprofile-arcs -ftest-coverage -g -DGTEST_HAS_PTHREAD=1 -std=gnu++2a
 

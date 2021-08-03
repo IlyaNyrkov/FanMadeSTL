@@ -57,10 +57,10 @@ RM = /snap/clion/162/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ilya/petProjects/CppProjects/DataStructures
+CMAKE_SOURCE_DIR = /home/ilya/petProjects/CppProjects/FanMadeSTL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,9 +97,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug/CMakeFiles /home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug/CMakeFiles /home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -200,78 +200,6 @@ dynamic_array/run_dynamic_array_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/dynamic_array/run_dynamic_array_test.cpp.s
 .PHONY : dynamic_array/run_dynamic_array_test.cpp.s
 
-hash_table/hash_table.o: hash_table/hash_table.cpp.o
-.PHONY : hash_table/hash_table.o
-
-# target to build an object file
-hash_table/hash_table.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/hash_table.cpp.o
-.PHONY : hash_table/hash_table.cpp.o
-
-hash_table/hash_table.i: hash_table/hash_table.cpp.i
-.PHONY : hash_table/hash_table.i
-
-# target to preprocess a source file
-hash_table/hash_table.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/hash_table.cpp.i
-.PHONY : hash_table/hash_table.cpp.i
-
-hash_table/hash_table.s: hash_table/hash_table.cpp.s
-.PHONY : hash_table/hash_table.s
-
-# target to generate assembly for a file
-hash_table/hash_table.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/hash_table.cpp.s
-.PHONY : hash_table/hash_table.cpp.s
-
-hash_table/hash_table_test.o: hash_table/hash_table_test.cpp.o
-.PHONY : hash_table/hash_table_test.o
-
-# target to build an object file
-hash_table/hash_table_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/hash_table_test.cpp.o
-.PHONY : hash_table/hash_table_test.cpp.o
-
-hash_table/hash_table_test.i: hash_table/hash_table_test.cpp.i
-.PHONY : hash_table/hash_table_test.i
-
-# target to preprocess a source file
-hash_table/hash_table_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/hash_table_test.cpp.i
-.PHONY : hash_table/hash_table_test.cpp.i
-
-hash_table/hash_table_test.s: hash_table/hash_table_test.cpp.s
-.PHONY : hash_table/hash_table_test.s
-
-# target to generate assembly for a file
-hash_table/hash_table_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/hash_table_test.cpp.s
-.PHONY : hash_table/hash_table_test.cpp.s
-
-hash_table/run_hash_table_test.o: hash_table/run_hash_table_test.cpp.o
-.PHONY : hash_table/run_hash_table_test.o
-
-# target to build an object file
-hash_table/run_hash_table_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/run_hash_table_test.cpp.o
-.PHONY : hash_table/run_hash_table_test.cpp.o
-
-hash_table/run_hash_table_test.i: hash_table/run_hash_table_test.cpp.i
-.PHONY : hash_table/run_hash_table_test.i
-
-# target to preprocess a source file
-hash_table/run_hash_table_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/run_hash_table_test.cpp.i
-.PHONY : hash_table/run_hash_table_test.cpp.i
-
-hash_table/run_hash_table_test.s: hash_table/run_hash_table_test.cpp.s
-.PHONY : hash_table/run_hash_table_test.s
-
-# target to generate assembly for a file
-hash_table/run_hash_table_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/run_hash_table_test.cpp.s
-.PHONY : hash_table/run_hash_table_test.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -296,54 +224,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-stack/run_stack_test.o: stack/run_stack_test.cpp.o
-.PHONY : stack/run_stack_test.o
-
-# target to build an object file
-stack/run_stack_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/stack/run_stack_test.cpp.o
-.PHONY : stack/run_stack_test.cpp.o
-
-stack/run_stack_test.i: stack/run_stack_test.cpp.i
-.PHONY : stack/run_stack_test.i
-
-# target to preprocess a source file
-stack/run_stack_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/stack/run_stack_test.cpp.i
-.PHONY : stack/run_stack_test.cpp.i
-
-stack/run_stack_test.s: stack/run_stack_test.cpp.s
-.PHONY : stack/run_stack_test.s
-
-# target to generate assembly for a file
-stack/run_stack_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/stack/run_stack_test.cpp.s
-.PHONY : stack/run_stack_test.cpp.s
-
-stack/stack_test.o: stack/stack_test.cpp.o
-.PHONY : stack/stack_test.o
-
-# target to build an object file
-stack/stack_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/stack/stack_test.cpp.o
-.PHONY : stack/stack_test.cpp.o
-
-stack/stack_test.i: stack/stack_test.cpp.i
-.PHONY : stack/stack_test.i
-
-# target to preprocess a source file
-stack/stack_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/stack/stack_test.cpp.i
-.PHONY : stack/stack_test.cpp.i
-
-stack/stack_test.s: stack/stack_test.cpp.s
-.PHONY : stack/stack_test.s
-
-# target to generate assembly for a file
-stack/stack_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/stack/stack_test.cpp.s
-.PHONY : stack/stack_test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -361,24 +241,9 @@ help:
 	@echo "... dynamic_array/run_dynamic_array_test.o"
 	@echo "... dynamic_array/run_dynamic_array_test.i"
 	@echo "... dynamic_array/run_dynamic_array_test.s"
-	@echo "... hash_table/hash_table.o"
-	@echo "... hash_table/hash_table.i"
-	@echo "... hash_table/hash_table.s"
-	@echo "... hash_table/hash_table_test.o"
-	@echo "... hash_table/hash_table_test.i"
-	@echo "... hash_table/hash_table_test.s"
-	@echo "... hash_table/run_hash_table_test.o"
-	@echo "... hash_table/run_hash_table_test.i"
-	@echo "... hash_table/run_hash_table_test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... stack/run_stack_test.o"
-	@echo "... stack/run_stack_test.i"
-	@echo "... stack/run_stack_test.s"
-	@echo "... stack/stack_test.o"
-	@echo "... stack/stack_test.i"
-	@echo "... stack/stack_test.s"
 .PHONY : help
 
 

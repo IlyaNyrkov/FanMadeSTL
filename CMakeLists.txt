@@ -20,7 +20,13 @@ message(${GTEST_LIBRARIES})
 
 set (TEST_PROJECT_SOURCES
         dynamic_array/dynamic_array_test.cpp
-        stack/run_stack_test.cpp stack/stack_test.cpp hash_table/hash_table.tpp hash_table/hash_table.h hash_table/hash_table_test.cpp hash_table/run_hash_table_test.cpp)
+        #stack/run_stack_test.cpp
+        #stack/stack_test.cpp
+        #hash_table/hash_table.tpp
+        #hash_table/hash_table.h
+        #hash_table/hash_table_test.cpp
+        #hash_table/run_hash_table_test.cpp
+        )
 
 add_executable(DataStructuresTest dynamic_array/run_dynamic_array_test.cpp ${TEST_PROJECT_SOURCES} ${PROJECT_SOURCES} ${PROJECT_HEADERS})
 target_link_libraries(DataStructuresTest ${GTEST_LIBRARIES})

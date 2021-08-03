@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ilya/petProjects/CppProjects/DataStructures/main.cpp" "/home/ilya/petProjects/CppProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/main.cpp.o"
+  "/home/ilya/petProjects/CppProjects/FanMadeSTL/main.cpp" "/home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug/CMakeFiles/DataStructures.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
