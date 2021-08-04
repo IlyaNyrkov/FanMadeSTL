@@ -1,5 +1,0 @@
-/home/ilya/petProjects/CppProjects/DataStructures/build/CMakeFiles/rebuild_cache.dir
-/home/ilya/petProjects/CppProjects/DataStructures/build/CMakeFiles/edit_cache.dir
-/home/ilya/petProjects/CppProjects/DataStructures/build/CMakeFiles/test.dir
-/home/ilya/petProjects/CppProjects/DataStructures/build/CMakeFiles/DataStructuresTest.dir
-/home/ilya/petProjects/CppProjects/DataStructures/build/CMakeFiles/DataStructures.dir

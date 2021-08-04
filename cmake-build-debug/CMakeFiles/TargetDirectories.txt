@@ -1,5 +1,0 @@
-/home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug/CMakeFiles/DataStructures.dir
-/home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug/CMakeFiles/DataStructuresTest.dir
-/home/ilya/petProjects/CppProjects/FanMadeSTL/cmake-build-debug/CMakeFiles/test.dir
