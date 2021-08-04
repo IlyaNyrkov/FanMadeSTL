@@ -176,29 +176,29 @@ dynamic_array/dynamic_array_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/dynamic_array/dynamic_array_test.cpp.s
 .PHONY : dynamic_array/dynamic_array_test.cpp.s
 
-dynamic_array/run_dynamic_array_test.o: dynamic_array/run_dynamic_array_test.cpp.o
-.PHONY : dynamic_array/run_dynamic_array_test.o
+hash_table/hash_table_test.o: hash_table/hash_table_test.cpp.o
+.PHONY : hash_table/hash_table_test.o
 
 # target to build an object file
-dynamic_array/run_dynamic_array_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/dynamic_array/run_dynamic_array_test.cpp.o
-.PHONY : dynamic_array/run_dynamic_array_test.cpp.o
+hash_table/hash_table_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/hash_table_test.cpp.o
+.PHONY : hash_table/hash_table_test.cpp.o
 
-dynamic_array/run_dynamic_array_test.i: dynamic_array/run_dynamic_array_test.cpp.i
-.PHONY : dynamic_array/run_dynamic_array_test.i
+hash_table/hash_table_test.i: hash_table/hash_table_test.cpp.i
+.PHONY : hash_table/hash_table_test.i
 
 # target to preprocess a source file
-dynamic_array/run_dynamic_array_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/dynamic_array/run_dynamic_array_test.cpp.i
-.PHONY : dynamic_array/run_dynamic_array_test.cpp.i
+hash_table/hash_table_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/hash_table_test.cpp.i
+.PHONY : hash_table/hash_table_test.cpp.i
 
-dynamic_array/run_dynamic_array_test.s: dynamic_array/run_dynamic_array_test.cpp.s
-.PHONY : dynamic_array/run_dynamic_array_test.s
+hash_table/hash_table_test.s: hash_table/hash_table_test.cpp.s
+.PHONY : hash_table/hash_table_test.s
 
 # target to generate assembly for a file
-dynamic_array/run_dynamic_array_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/dynamic_array/run_dynamic_array_test.cpp.s
-.PHONY : dynamic_array/run_dynamic_array_test.cpp.s
+hash_table/hash_table_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/hash_table/hash_table_test.cpp.s
+.PHONY : hash_table/hash_table_test.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -224,6 +224,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+run_tests.o: run_tests.cpp.o
+.PHONY : run_tests.o
+
+# target to build an object file
+run_tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/run_tests.cpp.o
+.PHONY : run_tests.cpp.o
+
+run_tests.i: run_tests.cpp.i
+.PHONY : run_tests.i
+
+# target to preprocess a source file
+run_tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/run_tests.cpp.i
+.PHONY : run_tests.cpp.i
+
+run_tests.s: run_tests.cpp.s
+.PHONY : run_tests.s
+
+# target to generate assembly for a file
+run_tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/run_tests.cpp.s
+.PHONY : run_tests.cpp.s
+
+stack/stack_test.o: stack/stack_test.cpp.o
+.PHONY : stack/stack_test.o
+
+# target to build an object file
+stack/stack_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/stack/stack_test.cpp.o
+.PHONY : stack/stack_test.cpp.o
+
+stack/stack_test.i: stack/stack_test.cpp.i
+.PHONY : stack/stack_test.i
+
+# target to preprocess a source file
+stack/stack_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/stack/stack_test.cpp.i
+.PHONY : stack/stack_test.cpp.i
+
+stack/stack_test.s: stack/stack_test.cpp.s
+.PHONY : stack/stack_test.s
+
+# target to generate assembly for a file
+stack/stack_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresTest.dir/build.make CMakeFiles/DataStructuresTest.dir/stack/stack_test.cpp.s
+.PHONY : stack/stack_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -238,12 +286,18 @@ help:
 	@echo "... dynamic_array/dynamic_array_test.o"
 	@echo "... dynamic_array/dynamic_array_test.i"
 	@echo "... dynamic_array/dynamic_array_test.s"
-	@echo "... dynamic_array/run_dynamic_array_test.o"
-	@echo "... dynamic_array/run_dynamic_array_test.i"
-	@echo "... dynamic_array/run_dynamic_array_test.s"
+	@echo "... hash_table/hash_table_test.o"
+	@echo "... hash_table/hash_table_test.i"
+	@echo "... hash_table/hash_table_test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... run_tests.o"
+	@echo "... run_tests.i"
+	@echo "... run_tests.s"
+	@echo "... stack/stack_test.o"
+	@echo "... stack/stack_test.i"
+	@echo "... stack/stack_test.s"
 .PHONY : help
 
 

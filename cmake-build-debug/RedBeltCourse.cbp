@@ -151,11 +151,22 @@
 		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/dynamic_array/dynamic_array_test.cpp">
 			<Option target="DataStructuresTest"/>
 		</Unit>
-		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/dynamic_array/run_dynamic_array_test.cpp">
+		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/hash_table/hash_table.h">
+			<Option target="DataStructures"/>
+			<Option target="DataStructuresTest"/>
+		</Unit>
+		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/hash_table/hash_table.tpp">
+			<Option target="DataStructures"/>
+			<Option target="DataStructuresTest"/>
+		</Unit>
+		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/hash_table/hash_table_test.cpp">
 			<Option target="DataStructuresTest"/>
 		</Unit>
 		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/main.cpp">
 			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/run_tests.cpp">
+			<Option target="DataStructuresTest"/>
 		</Unit>
 		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/stack/stack.h">
 			<Option target="DataStructures"/>
@@ -163,6 +174,9 @@
 		</Unit>
 		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/stack/stack.tpp">
 			<Option target="DataStructures"/>
+			<Option target="DataStructuresTest"/>
+		</Unit>
+		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/stack/stack_test.cpp">
 			<Option target="DataStructuresTest"/>
 		</Unit>
 		<Unit filename="/home/ilya/petProjects/CppProjects/FanMadeSTL/CMakeLists.txt">

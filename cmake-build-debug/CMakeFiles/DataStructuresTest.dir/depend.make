@@ -5,7 +5,15 @@ CMakeFiles/DataStructuresTest.dir/dynamic_array/dynamic_array_test.cpp.o: \
  ../dynamic_array/dynamic_array.h \
  ../dynamic_array/dynamic_array.tpp \
  ../dynamic_array/dynamic_array_test.cpp
-CMakeFiles/DataStructuresTest.dir/dynamic_array/run_dynamic_array_test.cpp.o: \
+CMakeFiles/DataStructuresTest.dir/hash_table/hash_table_test.cpp.o: \
+ ../hash_table/hash_table_test.cpp
+CMakeFiles/DataStructuresTest.dir/run_tests.cpp.o: \
  ../dynamic_array/dynamic_array.h \
  ../dynamic_array/dynamic_array.tpp \
- ../dynamic_array/run_dynamic_array_test.cpp
+ ../run_tests.cpp
+CMakeFiles/DataStructuresTest.dir/stack/stack_test.cpp.o: \
+ ../dynamic_array/dynamic_array.h \
+ ../dynamic_array/dynamic_array.tpp \
+ ../stack/stack.h \
+ ../stack/stack.tpp \
+ ../stack/stack_test.cpp
